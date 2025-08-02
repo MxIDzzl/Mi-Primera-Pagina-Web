@@ -1,27 +1,39 @@
 h1,h2{
-    color: red;
-    text-align: center;
-    background-color: yellow;
+    color: #5cb8d6;                 
+    text-align: center;             
+    background-color: #f8e1f7;      
+    padding: 1rem 2rem;             
+    border-radius: 12px; 
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
 }
 td{
     color: blue;
-    background-color: black;
-    border-radius: 30px;
-    box-shadow: 5px 5px 5px orangered inset;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
     padding: 10px;
 }
 th{
-    color: greenyellow;
-    background-color: green;
-    border-radius: 30px;
-    box-shadow: 5px 5px 5px yellow inset;
+    color: rgb(248, 248, 248);
+    background-color: rgb(240, 140, 215);
+    border-radius: 12px;
+    font-weight: 500;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 10px;
     font-weight: bold;
 }
 table, tr, td{
-    border: 2px solid aqua;
+    width: 90%;                    
+    margin: 2rem auto;             
+    border-collapse: separate;     
+    border-spacing: 0.5rem;        
+    background: transparent;       
+    font-family: 'Arial', sans-serif;
 }
 
 table{
-    background-color: black;
+    border: 2px solid #5cb8d6;    
+    border-radius: 12px;          
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
 }
